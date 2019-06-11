@@ -130,7 +130,7 @@ def convert_external_events_to_internal(event_results):
         try:
             internal_event = {
                 'name': event['name']['text'],
-                'description': event['description']['text'],
+                'description': event['description']['html'],
                 'start_time_utc': event['start']['utc'],
                 'end_time_utc': event['end']['utc'],
                 'id': event['id'],
