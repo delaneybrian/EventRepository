@@ -14,7 +14,7 @@ import json
 from events import get_events
 
 # import API models
-from api_models import event_list_response_model, event_query_model
+from api_models import event_query_model, event_response_model
 
 logging.getLogger(__name__)
 
@@ -24,6 +24,7 @@ logging.getLogger(__name__)
 class YouSightsEvents(Resource):
     @api.doc(description="Events API to get list of events from various sources including meetup and eventbrite")
     @api.expect(event_query_model)
+    @api.marshal_with(event_response_model)
     def post(self):
         request_info = request.json
         search_topic = request_info['keyword']
@@ -31,8 +32,7 @@ class YouSightsEvents(Resource):
         search_lat = request_info['lat']
         events = get_events(search_topic, search_lat, search_lng)
         if events:
-            print(events)
-            return json.dumps(events)
+            return events
         else:
             abort(404, events)
         return jsonify(error="error while processing data")

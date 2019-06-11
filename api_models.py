@@ -43,7 +43,3 @@ event_response_model = api.model('Event', {
     'lng': fields.Float(required=True, description='The longitude coordinates of the event',
                             example=56.474744),
 })
-
-event_list_response_model = api.model('EventList', {
-    'events' : fields.List(fields.Nested(event_response_model))
-})

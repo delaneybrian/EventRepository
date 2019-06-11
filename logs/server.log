@@ -846,3 +846,216 @@ flask_restplus.fields.MarshallingError: Unable to marshal field "url" value "htt
 2019-06-11 20:51:14,072 - werkzeug - WARNING -  * Debugger is active!
 2019-06-11 20:51:14,079 - werkzeug - INFO -  * Debugger PIN: 168-521-222
 2019-06-11 20:51:14,925 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:56:05,535 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:56:05,608 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:56:06,449 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:56:06,507 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:56:06,519 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:56:07,330 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:56:07,336 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:56:07,362 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:56:08,168 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:56:15,284 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:56:15,842 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 131
+2019-06-11 20:56:15,847 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:56:16,219 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8202
+2019-06-11 20:56:16,224 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:16,652 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:56:17,518 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:56:17,805 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:18,229 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:56:19,099 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:56:19,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:19,819 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:56:21,318 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:56:21,648 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:56:21] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:56:35,945 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:56:36,179 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 130
+2019-06-11 20:56:36,186 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:56:36,242 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:56:36,314 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:56:37,010 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:56:37,061 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:56:37,116 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:56:37,122 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:56:37,814 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:56:37,819 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:56:37,968 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:56:38,660 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:56:47,641 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:56:48,236 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 132
+2019-06-11 20:56:48,241 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:56:49,391 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8202
+2019-06-11 20:56:49,399 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:49,837 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:56:50,723 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:56:51,004 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:51,428 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:56:52,301 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:56:52,597 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:56:53,036 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:56:54,103 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:56:54,445 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:56:54] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:57:12,134 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:57:12,205 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:12,727 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:57:12,783 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:12,960 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:13,019 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:13,025 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:13,539 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:13,546 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:13,736 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:13,742 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:13,870 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:14,377 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:14,575 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:15,049 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:57:15,683 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 132
+2019-06-11 20:57:15,691 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:57:16,262 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8204
+2019-06-11 20:57:16,269 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:16,707 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:57:17,617 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:57:17,905 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:18,335 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:57:19,315 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:57:19,611 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:20,051 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:57:21,016 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:57:21,361 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:57:21] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:57:37,489 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:57:37,563 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:37,658 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:57:37,944 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:57:38,107 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:38,152 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:57:38,211 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:57:38,578 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:38,586 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:38,929 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:38,935 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:39,009 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:57:39,015 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:57:39,431 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:39,767 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:39,846 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:57:51,351 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:57:51,995 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 130
+2019-06-11 20:57:52,001 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:57:52,385 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8204
+2019-06-11 20:57:52,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:52,832 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:57:53,825 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:57:54,106 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:54,551 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:57:55,506 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:57:55,786 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:57:56,208 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:57:57,130 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:57:57,477 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:57:57] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:58:41,286 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:58:41,343 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:58:42,033 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:58:42,098 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:58:42,271 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:58:42,273 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:58:42,282 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:58:42,931 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:58:42,937 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:58:43,080 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:58:43,085 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:58:43,128 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:58:43,782 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:58:43,919 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:58:45,943 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:58:46,620 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 131
+2019-06-11 20:58:46,626 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:58:47,121 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8204
+2019-06-11 20:58:47,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:58:47,575 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:58:48,854 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:58:49,141 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:58:49,585 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:58:50,530 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:58:50,821 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:58:51,251 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:58:52,571 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:58:52,911 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:58:52] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:59:11,670 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:11,725 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:11,826 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:11,880 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:12,089 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:12,156 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:12,620 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:12,628 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:12,746 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:12,752 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:12,989 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:12,995 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:13,474 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:13,591 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:13,827 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:17,331 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:18,071 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:18,077 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:18,923 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:21,235 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 20:59:22,947 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 132
+2019-06-11 20:59:22,953 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 20:59:23,391 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8204
+2019-06-11 20:59:23,397 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:59:23,829 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 20:59:24,882 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 20:59:25,165 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:59:25,588 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 20:59:26,487 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 20:59:26,765 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 20:59:27,189 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 20:59:28,057 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 20:59:28,399 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 20:59:28] "POST /api/v1.0/events HTTP/1.1" 200 -
+2019-06-11 20:59:50,949 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:51,009 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:51,068 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:51,127 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:51,218 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\server.py', reloading
+2019-06-11 20:59:51,279 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:51,944 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:51,951 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:52,012 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:52,019 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:52,179 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:52,185 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:52,796 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:52,850 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:53,018 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:59:58,310 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\api_models.py', reloading
+2019-06-11 20:59:58,364 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:58,419 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\api_models.py', reloading
+2019-06-11 20:59:58,476 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:58,534 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\api_models.py', reloading
+2019-06-11 20:59:58,608 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:59:59,336 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:59,341 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:59,440 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:59,445 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:59:59,526 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:59:59,532 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 21:00:00,186 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 21:00:00,282 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 21:00:00,365 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 21:00:05,351 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): secure.meetup.com:443
+2019-06-11 21:00:05,982 - urllib3.connectionpool - DEBUG - https://secure.meetup.com:443 "POST /oauth2/access?client_id=a4t8djnuofg711ol9n123d5kqr&client_secret=621ss2n05shh4jj8n5ede6oh92&grant_type=refresh_token&refresh_token=14c958013bee8d48b911f78389d7d1dd HTTP/1.1" 200 132
+2019-06-11 21:00:05,989 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.meetup.com:443
+2019-06-11 21:00:06,514 - urllib3.connectionpool - DEBUG - https://api.meetup.com:443 "GET /find/upcoming_events?lat=53.35014&lon=-6.266155&radius=30&topic_category=34&text=python HTTP/1.1" 200 8204
+2019-06-11 21:00:06,519 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 21:00:06,968 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 301 None
+2019-06-11 21:00:08,606 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=0 HTTP/1.1" 200 61803
+2019-06-11 21:00:08,889 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 21:00:09,316 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 301 None
+2019-06-11 21:00:10,592 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=1 HTTP/1.1" 200 61803
+2019-06-11 21:00:10,871 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.eventbriteapi.com:443
+2019-06-11 21:00:11,298 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 301 None
+2019-06-11 21:00:12,202 - urllib3.connectionpool - DEBUG - https://www.eventbriteapi.com:443 "GET /v3/events/search/?categories=102&location.longitude=-6.266155&location.latitude=53.35014&expand=venue&page=2 HTTP/1.1" 200 57392
+2019-06-11 21:00:12,549 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2019 21:00:12] "POST /api/v1.0/events HTTP/1.1" 200 -
