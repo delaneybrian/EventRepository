@@ -33,11 +33,7 @@ def get_events(keyword, lat, lng):
         print('Error occurred: {0}'.format(error))
         logging.error(traceback.format_exc())
 
-    if relevant_events:
-        return relevant_events
-    else:
-        error_message = "no videos found for search term: {0}".format(keyword)
-        return {'status': 'error', 'status_message': error_message}
+    return relevant_events
 
 
 def get_new_access_token():
@@ -74,103 +70,107 @@ def convert_external_events_to_internal(event_results):
 
     for event in event_results:
 
-        if ('name' in event.keys()):
-            name = event['name']
-        else:
-            name = ''
+        try:
+            if ('name' in event.keys()):
+                name = event['name']
+            else:
+                name = ''
 
-        if ('description' in event.keys()):
-            description = event['description']
-        else:
-            description = ''
+            if ('description' in event.keys()):
+                description = event['description']
+            else:
+                description = ''
 
-        if ('time' in event.keys()):
-            time = event['time']
-        else:
-            time = 0
+            if ('time' in event.keys()):
+                time = event['time']
+            else:
+                time = 0
 
-        if ('duration' in event.keys()):
-            duration = event['duration']
-        else:
-            duration = 0
+            if ('duration' in event.keys()):
+                duration = event['duration']
+            else:
+                duration = 0
 
-        if ('utc_offset' in event.keys()):
-            utc_offset = event['utc_offset']
-        else:
-            utc_offset = 0
+            if ('utc_offset' in event.keys()):
+                utc_offset = event['utc_offset']
+            else:
+                utc_offset = 0
 
-        if ('id' in event.keys()):
-            id = event['id']
-        else:
-            id = ''
+            if ('id' in event.keys()):
+                id = event['id']
+            else:
+                id = ''
 
-        if ('link' in event.keys()):
-            url = event['link']
-        else:
-            url = ''
+            if ('link' in event.keys()):
+                url = event['link']
+            else:
+                url = ''
 
-        if ('group' in event.keys()):
-            group = event['group']
-            if ('name' in group.keys()):
-                summary = group['name']
+            if ('group' in event.keys()):
+                group = event['group']
+                if ('name' in group.keys()):
+                    summary = group['name']
+                else:
+                    summary = ""
             else:
                 summary = ""
-        else:
-            summary = ""
 
-        if ('venue' in event.keys()):
-            venue = event['venue']
-            if ('name' in venue.keys()):
-                address_line_1 = venue['name']
+            if ('venue' in event.keys()):
+                venue = event['venue']
+                if ('name' in venue.keys()):
+                    address_line_1 = venue['name']
+                else:
+                    address_line_1 = ""
+                if ('address_1' in venue.keys()):
+                    address_line_2 = venue['address_1']
+                else:
+                    address_line_2 = ""
+                if ('city' in venue.keys()):
+                    city = venue['city']
+                else:
+                    city = ""
+                if ('country' in venue.keys()):
+                    country = venue['country']
+                else:
+                    country = ""
+                if ('lat' in venue.keys()):
+                    lat = venue['lat']
+                else:
+                    lat = 0
+                if ('lon' in venue.keys()):
+                    lng = venue['lon']
+                else:
+                    lng = 0
             else:
                 address_line_1 = ""
-            if ('address_1' in venue.keys()):
-                address_line_2 = venue['address_1']
-            else:
                 address_line_2 = ""
-            if ('city' in venue.keys()):
-                city = venue['city']
-            else:
-                city = ""
-            if ('country' in venue.keys()):
-                country = venue['country']
-            else:
-                country = ""
-            if ('lat' in venue.keys()):
-                lat = venue['lat']
-            else:
                 lat = 0
-            if ('lon' in venue.keys()):
-                lng = venue['lon']
-            else:
                 lng = 0
-        else:
-            address_line_1 = ""
-            address_line_2 = ""
-            lat = 0
-            lng = 0
-            city = ""
-            country = ""
+                city = ""
+                country = ""
 
-        internal_event = {
-            'name': name,
-            'description': description,
-            'start_time_utc': calculate_event_start_time(time, utc_offset),
-            'end_time_utc': calculate_event_end_time(time, utc_offset, duration),
-            'id': id,
-            'is_free': 'True',
-            'url': url,
-            'summary': summary,
-            'address_line_1': address_line_1,
-            'address_line_2': address_line_2,
-            'city': city,
-            'country': country,
-            'lat': lat,
-            'lng': lng,
-            'source': 'meetup'
-        }
+            internal_event = {
+                'name': name,
+                'description': description,
+                'start_time_utc': calculate_event_start_time(time, utc_offset),
+                'end_time_utc': calculate_event_end_time(time, utc_offset, duration),
+                'id': id,
+                'is_free': 'True',
+                'url': url,
+                'summary': summary,
+                'address_line_1': address_line_1,
+                'address_line_2': address_line_2,
+                'city': city,
+                'country': country,
+                'lat': lat,
+                'lng': lng,
+                'source': 'meetup'
+            }
 
-        internal_events.append(internal_event)
+            internal_events.append(internal_event)
+        except Exception as error:
+            print('Error occurred in parsing: {0}'.format(error))
+            logging.error(traceback.format_exc())
 
     return internal_events
 

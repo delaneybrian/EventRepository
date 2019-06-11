@@ -32,11 +32,7 @@ def get_events(keyword, lat, lng):
         print('Error occurred: {0}'.format(error))
         logging.error(traceback.format_exc())
 
-    if relevant_events:
-        return relevant_events
-    else:
-        error_message = "no events found for search term: {0}".format(keyword)
-        return {'status': 'error', 'status_message': error_message}
+    return relevant_events
 
 
 def clean_word(word):
@@ -131,26 +127,29 @@ def convert_external_events_to_internal(event_results):
     internal_events = []
 
     for event in event_results:
-        print(event)
-        print("-----------------------------------------------")
-        internal_event = {
-            'name': event['name']['text'],
-            'description': event['description']['text'],
-            'start_time_utc': event['start']['utc'],
-            'end_time_utc': event['end']['utc'],
-            'id': event['id'],
-            'is_free': event['is_free'],
-            'url': event['url'],
-            'summary': event['summary'],
-            'address_line_1': event['venue']['address']['address_1'],
-            'address_line_2': event['venue']['address']['address_2'],
-            'city': event['venue']['address']['city'],
-            'country': event['venue']['address']['country'],
-            'lat': event['venue']['address']['latitude'],
-            'lng': event['venue']['address']['longitude'],
-            'source': 'eventbrite'
-        }
+        try:
+            internal_event = {
+                'name': event['name']['text'],
+                'description': event['description']['text'],
+                'start_time_utc': event['start']['utc'],
+                'end_time_utc': event['end']['utc'],
+                'id': event['id'],
+                'is_free': event['is_free'],
+                'url': event['url'],
+                'summary': event['summary'],
+                'address_line_1': event['venue']['address']['address_1'],
+                'address_line_2': event['venue']['address']['address_2'],
+                'city': event['venue']['address']['city'],
+                'country': event['venue']['address']['country'],
+                'lat': event['venue']['address']['latitude'],
+                'lng': event['venue']['address']['longitude'],
+                'source': 'eventbrite'
+            }
 
-        internal_events.append(internal_event)
+            internal_events.append(internal_event)
+
+        except Exception as error:
+            print('Error occurred in parsing: {0}'.format(error))
+            logging.error(traceback.format_exc())
 
     return internal_events

@@ -801,3 +801,48 @@ flask_restplus.fields.MarshallingError: Unable to marshal field "url" value "htt
 2019-06-11 20:37:25,316 - werkzeug - WARNING -  * Debugger is active!
 2019-06-11 20:37:25,331 - werkzeug - INFO -  * Debugger PIN: 168-521-222
 2019-06-11 20:37:26,190 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:48:47,544 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\meetup.py', reloading
+2019-06-11 20:48:47,597 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:48:48,466 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:48:48,471 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:48:49,316 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:48:54,854 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\meetup.py', reloading
+2019-06-11 20:48:54,904 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:48:55,663 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:48:55,668 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:48:56,513 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:49:27,440 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\eventbrite.py', reloading
+2019-06-11 20:49:27,488 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:49:28,266 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:49:28,272 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:49:29,117 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:49:30,408 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\eventbrite.py', reloading
+2019-06-11 20:49:30,461 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:49:31,291 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:49:31,296 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:49:32,129 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:50:10,393 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\meetup.py', reloading
+2019-06-11 20:50:10,450 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:50:11,258 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:50:11,263 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:50:12,128 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:50:19,777 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\meetup.py', reloading
+2019-06-11 20:50:19,831 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:50:20,704 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:50:20,710 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:50:21,553 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:50:30,243 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\eventbrite.py', reloading
+2019-06-11 20:50:30,293 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:50:31,093 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:50:31,100 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:50:31,944 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:51:02,835 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\events.py', reloading
+2019-06-11 20:51:02,893 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:51:03,680 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:51:03,686 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:51:04,532 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2019-06-11 20:51:13,223 - werkzeug - INFO -  * Detected change in 'C:\\Code\\EventBriteModule\\eventbrite.py', reloading
+2019-06-11 20:51:13,280 - werkzeug - INFO -  * Restarting with stat
+2019-06-11 20:51:14,072 - werkzeug - WARNING -  * Debugger is active!
+2019-06-11 20:51:14,079 - werkzeug - INFO -  * Debugger PIN: 168-521-222
+2019-06-11 20:51:14,925 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
